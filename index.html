@@ -62,12 +62,22 @@
             <h4><i>Chiiiill man...fill this form and join today</h4>
             <form id="householdform"aria-labelledby="contact-heading">
                 <div class="form-group">
-                    <label for="name">Full Name:</label>
+                    <label for="name">Full Name</label>
                     <input type="text" id="name" name="name" required 
                            aria-required="true"
                            aria-describedby="name-help">
                     <small id="name-help">Enter your full name as you'd like to be addressed</small>
                 </div>
-                
+                 <div class="form-group">
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required
+                           aria-required="true"
+                           aria-describedby="email-help">
+                    <small id="email-help">We'll send you the knowledge here</small>
+                </div>
+                <div id="form-feedback" aria-live="polite" aria-atomic="true"></div>
+                <button type="submit" id="submit-btn">Send</button>
+            </form>
+    </section>
 </body>
 </html>
