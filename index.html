@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Household!</title>
+</head>
+<body>
+    <header role="banner">
+        <h1>Come in, family</h1>
+        <p> <i>For those in need of that Knowledge and Community</i></p>
+    </header>
+    <nav role="navigation" aria-label="Main navigation">
+        <ul class="nav-list">
+            <li><a href="#home" aria-current="page">Home</a></li>
+            <li><a href="#books">Books</a></li>
+            <li><a href="#youtube">Youtube Channels</a></li>
+            <li><a href="#contact">Join The Household</a></li>
+        </ul>
+    </nav>
+    <main role="main" id="home"></main>
+    <section class="hero" aria-labelledby="hero-heading">
+            <h2 id="hero-heading">House Rules</h2>
+            <p>Welcome to the household! <i>Shoes off at the door plz.</i> A home of knowledge, culture, and everything black. </p>
+    </section>
+
+    <section class="Books" id="books" aria-labelledby="types-heading">
+            <h2 id="types-heading">This Week's Read</h2>
+
+                <div class="grid-container">
+                <article class="book-card" role="article" aria-labelledby="book1">
+                    <img src="https://m.media-amazon.com/images/I/610NlNN4ZUL._AC_UF1000,1000_QL80_.jpg"
+                         alt="The book All About Love by Bell Hooks" class="book-img">
+                    <div class="card-content">
+                        <h3 id="book1"> The Chokehold by Paul Butler. Buckle-Up With This One</h3>
+                        <p>Paul Butler’s Chokehold is a powerful and disturbing exploration of modern American policing and its tragic consequences for black communities across the country.  Butler locates policing within a larger cultural context of white supremacy, entertainment, sports, and a legacy of slavery and Jim Crow. Deploying his academic acumen as a legal scholar and his substantial prosecutorial experience in the federal system, Butler produces a searing account of the racialized animus structurally at work in our criminal justice system today.</p>
+                    </div>
+                </article>
+    </section>   
+    
+    <section class="YoutubeRec" id="youtube" aria-labelledby="youtube-section">
+            <h2 id="youtube-section"> Familiar Household NAMES</h2>
+            <div class="recommended-grid">
+                <div class="recommended-card">
+                    <h3>Grits & Eggs Podcast</h3>
+                    <p>The "Grits & Eggs Podcast" is a show hosted by Deanté Kyle and Co-Host Big Ice Cup Kat, that offers raw, unfiltered takes on black pop culture, current events, and politics with a blend of humor and intellect. It is available on platforms like Apple Podcasts, Spotify, and YouTube. 
+                </div>
+                <div class="recommended-card">
+                    <h3>FD Signifier</h3>
+                    <p>Former PhD candidate in sociology, F.D Signifier <i>(or known as Unc)</i> is a YouTube channel essayist known for its in-depth video essays that focus on Black movies, media, and other cultural and social topics.</p>
+                </div>
+                <div class="recommended-card">
+                    <h3>The JAAM Podcast</h3>
+                    <p>The Jaam Podcast, also known as The JAAM, is a news, society, and culture podcast hosted by JJ, Allen, Abee, and Matt. The group of four Chicago-based hosts discuss a range of topics, often with a focus on current events and their implications for Black culture.</p>
+                </div>
+            </div>
+    </section>
+
+    <section class="contact-form" id="contact" aria-labelledby="contact-heading">
+            <h2 id="contact-heading">"I wanna join The Household!" </h2>
+            <h4><i>Chiiiill man...fill this form and join today</h4>
+            <form id="householdform"aria-labelledby="contact-heading">
+                <div class="form-group">
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="name" required 
+                           aria-required="true"
+                           aria-describedby="name-help">
+                    <small id="name-help">Enter your full name as you'd like to be addressed</small>
+                </div>
+                
+</body>
+</html>
