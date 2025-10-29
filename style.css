@@ -266,3 +266,38 @@ input {
     font-family: inherit;
 }
 
+.simple-cute-button {
+    background: #ff69b4;
+    color: white;
+    padding: 1rem 3rem;
+    border: none;
+    border-radius: 15px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    display: block;
+    margin: 2rem auto;
+}
+
+.simple-cute-button:hover {
+    background: #ff007f;
+    transform: scale(1.05);
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: #fff0f5;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(#ff00aa, #c71585);
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(#c71585, #ff00aa);
+}
