@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: var(--text-dark);
+    background-image: url('https://dl.glitter-graphics.com/pub/3297/3297996jhk3cxp0nf.gif');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.7); /* Changed from 0.85 to 0.7 */
+    z-index: -1;
+}
+
+.glitter-header {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.glitter-text {
+    display: inline-block;
+}
+
+.glitter-text img {
+    display: inline;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+}
+
+header[role="banner"] {
+    background: linear-gradient(45deg, var(--hot-pink), var(--purple));
+    color: var(--white);
+    text-align: center;
+    padding: 2rem 1rem;
+    border-bottom: 5px dashed var(--neon-yellow);
+}
+
+header[role="banner"] p {
+    font-size: 1.2rem;
+    opacity: 0.9;
+    margin-top: 0.5rem;
+}
+
+
+nav[role="navigation"] {
+    background: var(--black);
+    padding: 1rem;
+    border-bottom: 3px dotted var(--lime-green);
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 2rem;
+}
+
+.nav-list a {
+    color: rgb(50, 6, 28);
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border: 2px solid var;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+    background: var(--black);
+}
+
+main[role="main"] {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+
